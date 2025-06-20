@@ -1,0 +1,38 @@
+.resumeContainer {
+    height: 85vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
+
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20vw;
+}
+
+.titleText {
+    font-size: 62px;
+    font-weight: 800;
+    color: #1E90FF;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.resume {
+    width: 50vw;   
+    height: 80vh;
+    border: none;
+    box-shadow: 
+    0 0 20px rgba(0, 0, 0, 0.6),
+    0 0 50px rgba(30, 144, 255, 0.4),
+    0 0 80px rgba(30, 144, 255, 0.3),
+    inset 0 0 15px rgba(30, 144, 255, 0.5);
+    border-radius: 16px;
+
+}

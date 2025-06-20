@@ -1,0 +1,13 @@
+/* .introContainer{
+    margin-top: 5%;
+    margin-left: 2%;
+} */
+.navigationContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    max-height:10vh;
+  }

@@ -1,0 +1,24 @@
+.spanp {
+    font-size: 2.5rem; 
+    font-weight: 600; 
+    color: #999;      
+    line-height: 1.3;
+    margin: 0px;
+    cursor: default;
+  }
+  .container {
+    margin-top: 5%;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+  .spanh1{
+    font-size: 3.5rem; 
+    font-weight: 700;  
+    color: white;
+    margin-bottom: 1rem;
+    cursor: default;
+  }
+  

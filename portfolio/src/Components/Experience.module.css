@@ -1,0 +1,29 @@
+.experienceContainer{
+    height:85vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.titleContainer{
+    height: 10%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.titleText{
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFD700;
+    font-family: sans-serif;
+    margin: 4%;
+}
+.experienceCardContainer{
+    height:90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
