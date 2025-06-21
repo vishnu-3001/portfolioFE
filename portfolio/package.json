@@ -17,9 +17,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-"homepage": "https://vishnu-3001.github.io/portfolioFE",
-      "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "homepage": "https://vishnu-3001.github.io/portfolioFE",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
