@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f8505ab5.css",
+    "main.js": "/static/js/main.ec3ae589.js",
+    "static/media/candidate-image.jpeg": "/static/media/candidate-image.83829267fb4e3648f989.jpeg",
+    "static/media/GEM.png": "/static/media/GEM.4c1666a67247849953bf.png",
+    "static/media/Paper.png": "/static/media/Paper.9aa4c3c8f1014212f85b.png",
+    "static/media/AWS.png": "/static/media/AWS.b4989e3da86bc3048362.png",
+    "static/media/technology.png": "/static/media/technology.887e2e15c032d54d9706.png",
+    "static/media/developer.png": "/static/media/developer.3d22f202d5cc9ad9ef7f.png",
+    "static/media/phone-call.png": "/static/media/phone-call.1dbfb7b25cc390268ca6.png",
+    "static/media/books.png": "/static/media/books.3f38c78af45ee6c46ce3.png",
+    "static/media/email.png": "/static/media/email.14157efadeebea1d8588.png",
+    "static/media/github.png": "/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/leadership.png": "/static/media/leadership.66f6ba0be14793e44eb0.png",
+    "static/media/bachelors-degree.png": "/static/media/bachelors-degree.e1291fc1959f69e1284a.png",
+    "static/media/linkedin.png": "/static/media/linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/index.html",
+    "main.f8505ab5.css.map": "/static/css/main.f8505ab5.css.map",
+    "main.ec3ae589.js.map": "/static/js/main.ec3ae589.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8505ab5.css",
+    "static/js/main.ec3ae589.js"
+  ]
+}

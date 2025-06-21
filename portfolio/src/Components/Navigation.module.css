@@ -5,19 +5,57 @@
     margin-bottom: 1.5%;
     margin-left: 2%;
     margin-right: 2%;
-    /* max-height:10vh; */
+    max-height:10vh;
 }
-.navButton{
-    background: none;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-    border-bottom: 2px solid transparent;
-}
+
 .name{
     font-size: 24px;
     color: #fff;
     font-weight: 600;
     margin: 0px;
+}
+
+.iconGroup {
+    display: flex;
+    gap: 16px; /* This adds space between icons */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contactLink {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.contactImage {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
+}
+
+.contactLink:hover .contactImage {
+    transform: scale(1.2);
+}
+
+.contactText {
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.contactLink:hover .contactText {
+    opacity: 1;
 }
