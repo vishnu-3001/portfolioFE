@@ -6,6 +6,7 @@ import Experience from "./Experience";
 import Education from "./Education";
 import Achievements from "./Achievements";
 import Resume from "./Resume";
+import Projects from "./Projects";
 export default function Home(){
     return(
         <div>
@@ -18,6 +19,7 @@ export default function Home(){
             </div>
             <Experience />
             <Education />
+            <Projects />
             <Achievements />
             <Resume />
         </div>
