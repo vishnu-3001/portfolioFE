@@ -67,3 +67,60 @@
     object-fit: contain;
     margin-bottom: 4%; 
   }
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .card {
+        width: 45%;
+    }
+    .degree {
+        font-size: 22px;
+    }
+    .major {
+        font-size: 18px;
+    }
+}
+
+/* Small tablet / large phone */
+@media (max-width: 768px) {
+    .card {
+        width: 80%;
+        height: auto;
+        min-height: 300px;
+        margin: 3% auto;
+    }
+    .degree {
+        font-size: 20px;
+    }
+    .major {
+        font-size: 16px;
+    }
+    .college {
+        font-size: 14px;
+    }
+    .course {
+        font-size: 14px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .card {
+        width: 90%;
+    }
+    .degree {
+        font-size: 18px;
+    }
+    .major {
+        font-size: 15px;
+    }
+    .college {
+        font-size: 13px;
+    }
+    .year {
+        font-size: 14px;
+    }
+    .course {
+        font-size: 13px;
+    }
+}

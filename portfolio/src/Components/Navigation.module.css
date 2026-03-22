@@ -6,6 +6,7 @@
     margin-left: 2%;
     margin-right: 2%;
     max-height:10vh;
+    align-items: center;
 }
 
 .name{
@@ -17,7 +18,7 @@
 
 .iconGroup {
     display: flex;
-    gap: 16px; /* This adds space between icons */
+    gap: 16px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -58,4 +59,50 @@
 
 .contactLink:hover .contactText {
     opacity: 1;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .name {
+        font-size: 20px;
+    }
+    .contactImage {
+        width: 28px;
+        height: 28px;
+    }
+    .iconGroup {
+        gap: 12px;
+    }
+}
+
+/* Small tablet / large phone */
+@media (max-width: 768px) {
+    .name {
+        font-size: 18px;
+    }
+    .contactImage {
+        width: 26px;
+        height: 26px;
+    }
+    .iconGroup {
+        gap: 10px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .name {
+        font-size: 14px;
+    }
+    .contactImage {
+        width: 22px;
+        height: 22px;
+    }
+    .iconGroup {
+        gap: 8px;
+    }
+    .navigationContainer {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
 }

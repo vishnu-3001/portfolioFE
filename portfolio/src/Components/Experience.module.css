@@ -27,3 +27,33 @@
     justify-content: space-around;
     overflow: hidden;
 }
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .titleText {
+        font-size: 34px;
+    }
+}
+
+/* Small tablet / large phone */
+@media (max-width: 768px) {
+    .experienceContainer {
+        height: auto;
+    }
+    .titleText {
+        font-size: 28px;
+    }
+    .experienceCardContainer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        overflow: visible;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .titleText {
+        font-size: 24px;
+    }
+}

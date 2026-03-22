@@ -1,12 +1,11 @@
 .aboutContainer {
-    /* margin-bottom: 5%; */
     cursor: default;
     display: flex;
     flex-direction: row;
     height: 60vh;
     justify-content: space-between;
-    align-items: flex-start; /* vertically align image and text */
-    gap: 5%; /* creates visual spacing */
+    align-items: flex-start;
+    gap: 5%;
   }
   
   .textContainer {
@@ -38,6 +37,65 @@
     0 0 40px rgba(138, 43, 226, 0.4),
     0 0 60px rgba(138, 43, 226, 0.3);
 transition: box-shadow 0.4s ease;
-/* margin-left: 5%; */
   }
-  
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .ptext {
+        font-size: 20px;
+    }
+    .divtext {
+        font-size: 28px;
+    }
+    .candImage {
+        width: 80%;
+    }
+}
+
+/* Small tablet / large phone */
+@media (max-width: 768px) {
+    .aboutContainer {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 0 5%;
+    }
+    .imageContainer {
+        width: 80%;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+    .candImage {
+        width: 60%;
+        height: auto;
+    }
+    .textContainer {
+        margin-right: 0;
+        text-align: center;
+    }
+    .ptext {
+        font-size: 18px;
+    }
+    .divtext {
+        font-size: 26px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .aboutContainer {
+        padding: 0 4%;
+    }
+    .imageContainer {
+        width: 90%;
+    }
+    .candImage {
+        width: 70%;
+    }
+    .ptext {
+        font-size: 16px;
+    }
+    .divtext {
+        font-size: 22px;
+    }
+}
